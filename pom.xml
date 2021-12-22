@@ -7,6 +7,16 @@
     <groupId>com.github.pmiaowu</groupId>
     <artifactId>JavaProxyTest</artifactId>
     <version>1.0</version>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
